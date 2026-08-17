@@ -153,13 +153,13 @@ es:
       challenge_text: "Simplificar el autoconocimiento en un producto digital claro, contemporáneo y práctico — sin clichés ni frases motivacionales."
       solution_text: "Metodología estructurada en 3 pasos:<br><br>• <strong>Conocer:</strong> Mapear valores y límites.<br>• <strong>Elegir:</strong> Tomar decisiones conscientes.<br>• <strong>Mover:</strong> Transformar claridad en acción."
       feature_1_title: "Brand Strategy"
-      feature_1: "Posicionamiento, propósito e identidad."
+      feature_1: "Posicionamiento, propósito e identidad"
       feature_2_title: "Método NEXA"
-      feature_2: "Framework Conocer → Elegir → Mover."
+      feature_2: "Framework Conocer → Elegir → Mover"
       feature_3_title: "Experiencia Digital"
-      feature_3: "Interfaz guiada por elecciones."
+      feature_3: "Interfaz guiada por elecciones"
       feature_4_title: "MVP Interactivo"
-      feature_4: "Plataforma en vivo lista para explorar."
+      feature_4: "Plataforma en vivo lista para explorar"
 
   journey:
     index: "LA JORNADA"

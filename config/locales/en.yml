@@ -153,13 +153,13 @@ en:
       challenge_text: "Transforming abstract self-knowledge into a sleek, practical, and non-generic digital product — free of motivation jargon."
       solution_text: "Structured 3-step methodology:<br><br>• <strong>Discover:</strong> Map core values and boundaries.<br>• <strong>Choose:</strong> Make intentional decisions.<br>• <strong>Move:</strong> Turn clarity into action."
       feature_1_title: "Brand Strategy"
-      feature_1: "Positioning, purpose & identity."
+      feature_1: "Positioning, purpose & identity"
       feature_2_title: "NEXA Method"
-      feature_2: "Discover → Choose → Move framework."
+      feature_2: "Discover → Choose → Move framework"
       feature_3_title: "Digital Experience"
-      feature_3: "Choice-driven web application."
+      feature_3: "Choice-driven web application"
       feature_4_title: "Interactive MVP"
-      feature_4: "Live platform ready to explore."
+      feature_4: "Live platform ready to explore"
 
   journey:
     index: "THE JOURNEY"
