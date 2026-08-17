@@ -1,0 +1,2627 @@
+<!-- BEGIN app/views/layouts/application.html.erb
+--><!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Ashilay Oliveira — Technology, Creativity &amp; Strategy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio interativo explorando tecnologia, criatividade e estratégia através de projetos, experiências e ideias.">
+    <meta name="theme-color" content="#0B0B16">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="Ashilay's Universe">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ashilay's Universe">
+    <meta property="og:title" content="Ashilay Oliveira — Technology, Creativity & Strategy">
+    <meta property="og:description" content="Portfólio interativo explorando tecnologia, criatividade e estratégia através de projetos, experiências e ideias.">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:image" content="/icon.svg">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ashilay Oliveira — Technology, Creativity & Strategy">
+    <meta name="twitter:description" content="Portfólio interativo explorando tecnologia, criatividade e estratégia através de projetos, experiências e ideias.">
+    <meta name="twitter:image" content="/icon.svg">
+
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="3TjcJkuxtuU7l7e2qIGbw47hQtEOV39u6tnJkCprcOW9J5BizQjmb3fG2s7DhwTdDDEWkW36v27OolXrTdTxRQ" />
+    
+
+    
+
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/assets/application.css" />
+    <script type="importmap" data-turbo-track="reload">{
+  "imports": {
+    "application": "/assets/application-d37fe70b.js",
+    "@hotwired/turbo-rails": "/assets/turbo.min-9fd88cd5.js",
+    "@hotwired/stimulus": "/assets/stimulus.min-4b1e420e.js",
+    "@hotwired/stimulus-loading": "/assets/stimulus-loading-1fc53fe7.js",
+    "controllers/application": "/assets/controllers/application-3affb389.js",
+    "controllers/hello_controller": "/assets/controllers/hello_controller-708796bd.js",
+    "controllers": "/assets/controllers/index-ee64e1f1.js"
+  }
+}</script>
+<link rel="modulepreload" href="/assets/application-d37fe70b.js">
+<link rel="modulepreload" href="/assets/turbo.min-9fd88cd5.js">
+<link rel="modulepreload" href="/assets/stimulus.min-4b1e420e.js">
+<link rel="modulepreload" href="/assets/stimulus-loading-1fc53fe7.js">
+<link rel="modulepreload" href="/assets/controllers/application-3affb389.js">
+<link rel="modulepreload" href="/assets/controllers/hello_controller-708796bd.js">
+<link rel="modulepreload" href="/assets/controllers/index-ee64e1f1.js">
+<script type="module">import "application"</script>
+  </head>
+
+  <body>
+    <!-- BEGIN app/views/universe/index.html.erb
+--><main
+  class="universe"
+  data-secret-1="SEGREDO 01 / 03: O núcleo do universo foi despertado."
+  data-secret-2="SEGREDO 02 / 03: Observadora de estrelas sintonizada."
+  data-secret-3="SEGREDO 03 / 03: O limite do universo foi alcançado."
+>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="custom-cursor" aria-hidden="true">
+    <div class="cursor-dot"></div>
+    <div class="cursor-ring">
+      <span class="cursor-label"></span>
+    </div>
+  </div>
+
+  <!-- COSMIC TOAST / EASTER EGGS -->
+  <div class="cosmic-toast" id="cosmic-toast" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- =========================================
+       00 / PORTAL
+  ========================================== -->
+
+  <section class="portal" id="portal">
+
+    <!-- NAVIGATION -->
+
+    <nav class="navigation">
+
+      <a href="#portal" class="universe-logo">
+        <span class="logo-symbol easter-egg-trigger" data-secret="1" title="✦" role="button" tabindex="0">✦</span>
+        <span class="logo-name">ASHILAY'S UNIVERSE</span>
+      </a>
+
+      <div class="nav-actions">
+
+        <!-- IDIOMA -->
+
+        <div class="language-control">
+
+          <button
+            class="language-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-label="Idioma"
+          >
+            <svg class="nav-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+            </svg>
+
+            <span class="language-current">
+              PT-BR
+            </span>
+
+            <svg class="nav-chevron" width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+
+          <div class="language-menu" hidden>
+
+            <span class="panel-label">
+              Idioma
+            </span>
+
+            <a class="language-option" data-turbo="false" href="/pt-BR">PT — Português</a>
+
+            <a class="language-option" data-turbo="false" href="/en">EN — English</a>
+
+            <a class="language-option" data-turbo="false" href="/es">ES — Español</a>
+
+          </div>
+
+        </div>
+
+
+        <!-- TEMA / REALIDADE -->
+
+        <button
+          class="theme-toggle"
+          type="button"
+          aria-label="Mudar realidade"
+        >
+          <span class="theme-icon-box" aria-hidden="true">
+            <svg class="nav-icon theme-svg-dark" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+            <svg class="nav-icon theme-svg-light" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+          </span>
+
+          <span class="theme-label">
+            Mudar realidade
+          </span>
+        </button>
+
+
+        <!-- ACESSIBILIDADE -->
+
+        <button
+          class="accessibility-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="accessibility-panel"
+          aria-label="Acessibilidade"
+        >
+          <svg class="nav-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <circle cx="12" cy="7.5" r="1.5" fill="currentColor"></circle>
+            <path d="M7.5 12c3-1.2 6-1.2 9 0"></path>
+            <path d="M12 12v4.5"></path>
+            <path d="M9.5 19.5 12 16.5 14.5 19.5"></path>
+          </svg>
+
+          <span class="accessibility-label">
+            Acessibilidade
+          </span>
+        </button>
+
+
+        <!-- MENU -->
+
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="Menu"
+          aria-expanded="false"
+          aria-controls="menu-overlay"
+        >
+          <span class="menu-icon-bars" aria-hidden="true">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+          </span>
+
+          <span class="menu-label">
+            Menu
+          </span>
+        </button>
+
+      </div>
+
+    </nav>
+
+
+    <!-- =========================================
+         ACESSIBILIDADE
+    ========================================== -->
+
+    <aside
+      class="accessibility-panel"
+      id="accessibility-panel"
+      aria-hidden="true"
+    >
+
+      <div class="panel-header">
+
+        <div>
+          <span class="panel-index">ACCESS / 01</span>
+
+          <h2>
+            Acessibilidade
+          </h2>
+        </div>
+
+        <button
+          class="accessibility-close"
+          type="button"
+          aria-label="Fechar painel de acessibilidade"
+        >
+          ×
+        </button>
+
+      </div>
+
+
+      <div class="accessibility-options">
+
+        <!-- TAMANHO DO TEXTO -->
+
+        <div class="accessibility-group">
+
+          <span class="option-title">
+            TAMANHO DO TEXTO
+          </span>
+
+          <div class="text-size-controls">
+
+            <button type="button" data-font-size="small">
+              A−
+            </button>
+
+            <button type="button" data-font-size="normal">
+              A
+            </button>
+
+            <button type="button" data-font-size="large">
+              A+
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- CONTRASTE -->
+
+        <button
+          class="accessibility-option"
+          data-accessibility="contrast"
+          type="button"
+        >
+          <span class="accessibility-icon">◑</span>
+
+          <span>
+            ALTO CONTRASTE
+          </span>
+        </button>
+
+
+        <!-- MOVIMENTO -->
+
+        <button
+          class="accessibility-option"
+          data-accessibility="motion"
+          type="button"
+        >
+          <span class="accessibility-icon">≋</span>
+
+          <span>
+            REDUZIR MOVIMENTO
+          </span>
+        </button>
+
+
+        <!-- LIBRAS -->
+
+
+          <button
+            class="accessibility-option libras-toggle"
+            type="button"
+          >
+            <span class="accessibility-icon">🤟</span>
+
+            <span>
+              LIBRAS
+            </span>
+          </button>
+
+
+      </div>
+
+    </aside>
+
+
+    <!-- =========================================
+         FULLSCREEN MENU
+    ========================================== -->
+
+    <div
+      class="menu-overlay"
+      id="menu-overlay"
+      aria-hidden="true"
+      role="dialog"
+      aria-label="Menu"
+    >
+
+      <div class="menu-wrapper">
+
+        <div class="menu-header">
+
+          <div class="menu-reality">
+
+            <span class="menu-reality-label">
+              REALIDADE ATUAL
+            </span>
+
+            <strong
+              class="menu-reality-value"
+              data-midnight="MIDNIGHT UNIVERSE"
+              data-daydream="DAYDREAM UNIVERSE"
+            >
+              MIDNIGHT UNIVERSE
+            </strong>
+
+          </div>
+
+          <button
+            class="menu-close"
+            type="button"
+            aria-label="FECHAR"
+          >
+            ×
+          </button>
+
+        </div>
+
+
+        <nav class="menu-navigation" aria-label="Menu">
+
+          <a href="#portal" class="menu-link">
+            <span class="menu-link-index">00</span>
+            <span>PORTAL</span>
+          </a>
+
+          <a href="#about" class="menu-link">
+            <span class="menu-link-index">01</span>
+            <span>THE UNIVERSE</span>
+          </a>
+
+          <a href="#worlds" class="menu-link">
+            <span class="menu-link-index">02</span>
+            <span>WORLDS</span>
+          </a>
+
+          <a href="#work" class="menu-link">
+            <span class="menu-link-index">03</span>
+            <span>TRABALHOS</span>
+          </a>
+
+          <a href="#journey" class="menu-link">
+            <span class="menu-link-index">04</span>
+            <span>A JORNADA</span>
+          </a>
+
+          <a href="#capabilities" class="menu-link">
+            <span class="menu-link-index">05</span>
+            <span>CAPACIDADES</span>
+          </a>
+
+          <a href="#beyond" class="menu-link">
+            <span class="menu-link-index">06</span>
+            <span>ALÉM DO TRABALHO</span>
+          </a>
+
+          <a href="#contact" class="menu-link">
+            <span class="menu-link-index">07</span>
+            <span>CONTATO</span>
+          </a>
+
+        </nav>
+
+
+        <div class="menu-quick-access">
+
+          <span class="menu-quick-label">
+            ACESSO RÁPIDO / MUNDOS
+          </span>
+
+          <div class="menu-worlds">
+
+            <a href="#world-tech" class="menu-world menu-world-tech">
+              <span class="menu-world-symbol">◉</span>
+              <strong class="menu-world-name">THE LAB</strong>
+              <span class="menu-world-type">TECNOLOGIA</span>
+            </a>
+
+            <a href="#world-creative" class="menu-world menu-world-creative">
+              <span class="menu-world-symbol">◇</span>
+              <strong class="menu-world-name">THE STUDIO</strong>
+              <span class="menu-world-type">ARTE</span>
+            </a>
+
+            <a href="#world-strategy" class="menu-world menu-world-strategy">
+              <span class="menu-world-symbol">✦</span>
+              <strong class="menu-world-name">THE FORGE</strong>
+              <span class="menu-world-type">ESTRATÉGIA</span>
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =========================================
+         ATMOSFERA
+    ========================================== -->
+
+    <div class="portal-atmosphere" aria-hidden="true">
+
+      <span class="orb orb-one"></span>
+      <span class="orb orb-two"></span>
+      <span class="orb orb-three"></span>
+
+      <span class="star star-one">✦</span>
+      <span class="star star-two">·</span>
+      <span class="star star-three">✦</span>
+
+    </div>
+
+
+    <!-- =========================================
+         CONTEÚDO PRINCIPAL
+    ========================================== -->
+
+    <div class="portal-content">
+
+      <span class="portal-symbol">✦</span>
+
+      <p class="portal-code">
+        BEM-VINDOS
+      </p>
+
+      <h1>
+        ASHILAY&#39;S
+
+        <span>
+          UNIVERSE
+        </span>
+      </h1>
+
+      <p class="portal-description">
+        Onde tecnologia, criatividade e soluções se encontram.
+      </p>
+
+      <a href="#about" class="enter-button">
+
+        <span>
+          ENTRAR
+        </span>
+
+        <span class="enter-arrow">↓</span>
+
+      </a>
+
+    </div>
+
+
+    <div class="portal-footer">
+
+      <span>
+        Access
+      </span>
+
+      <span>
+        Worlds
+      </span>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================
+       01 / THE UNIVERSE
+  ========================================== -->
+
+  <section class="about section" id="about">
+
+    <span class="section-index">
+      THE UNIVERSE
+    </span>
+
+    <div class="about-grid">
+
+      <div class="about-heading">
+
+        <h2>
+          EU NÃO
+
+          <span>
+            CAIBO EM
+          </span>
+
+          UMA CAIXA.
+        </h2>
+
+        <div class="about-worlds">
+
+          <span>
+            TECNOLOGIA
+          </span>
+
+          <span>
+            ARTE
+          </span>
+
+          <span>
+            ESTRATÉGIA
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-content">
+
+        <div class="photo-placeholder">
+
+          <img src="/images/Minha%20foto.jpg" alt="Ashilay Oliveira" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+
+          <div class="photo-orbit" style="z-index: 2; pointer-events: none;"></div>
+
+          <span class="photo-star photo-star-one" style="z-index: 2; pointer-events: none;">✦</span>
+          <span class="photo-star photo-star-two" style="z-index: 2; pointer-events: none;">·</span>
+
+        </div>
+
+
+        <div class="about-text">
+
+          <p class="about-highlight">
+
+            Olá eu sou Ashilay Oliveira.
+
+            <strong>
+              E construo entre mundos.
+            </strong>
+
+          </p>
+
+          <p>
+            Na minha realidade, tecnologia, arte e estratégia não são identidades separadas, elas me compõem como pessoa, e em minhas mãos são diferentes ferramentas para criar, inovar e transformar ideias.
+          </p>
+
+          <p>
+            Este universo reúne projetos, experiências e formas de pensar que atravessam código, design e construção de soluções.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <div class="about-details">
+
+      <div>
+        <span>ÁREA</span>
+        <strong>Sistemas da Informação</strong>
+      </div>
+
+      <div>
+        <span>LOCAL</span>
+        <strong>São Paulo, Brasil</strong>
+      </div>
+
+      <div>
+        <span>LINGUAGEM</span>
+        <strong>Entusiasta de Ruby</strong>
+      </div>
+
+      <div>
+        <span>INTERSEÇÃO</span>
+        <strong>Tech + Criatividade + Estratégia</strong>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- =========================================
+       02 / WORLDS
+  ========================================== -->
+
+  <section class="worlds" id="worlds">
+
+    <div class="worlds-wrapper">
+
+      <div class="worlds-heading">
+
+        <span class="section-index">
+          WORLDS
+        </span>
+
+        <p class="worlds-eyebrow">
+          TRÊS DIMENSÕES DO MESMO UNIVERSO
+        </p>
+
+        <h2>
+          SELECIONE UM
+
+          <span>
+            MUNDO.
+          </span>
+        </h2>
+
+        <p class="worlds-description">
+          Cada mundo guarda uma parte da minha trajetória, experiências, descobertas e caminhos que hoje se conectam.
+        </p>
+
+        <!-- EXPLORATION PROGRESS HUD -->
+        <div class="worlds-hud">
+          <span class="worlds-hud-label">MUNDOS EXPLORADOS</span>
+          <div class="worlds-hud-indicators">
+            <span class="hud-pip" data-world-pip="tech" title="The Lab">◉</span>
+            <span class="hud-pip" data-world-pip="creative" title="The Studio">◇</span>
+            <span class="hud-pip" data-world-pip="strategy" title="The Forge">✦</span>
+          </div>
+          <span class="worlds-hud-count" id="worlds-hud-count">0 / 3</span>
+        </div>
+
+      </div>
+
+<div class="world-grid">
+
+  <!-- =====================================
+       TECHNOLOGY
+  ====================================== -->
+
+  <article
+    class="world-card world-tech"
+    id="world-tech"
+  >
+
+    <span class="world-index">
+      01
+    </span>
+
+    <span class="world-symbol">
+      ◉
+    </span>
+
+    <div class="world-information">
+
+      <h3>
+        TECHNOLOGY
+      </h3>
+
+      <h4>
+        THE LAB
+      </h4>
+
+      <ul>
+        <li>Formações SENAI &amp; Instituto PROA</li>
+        <li>Sistemas de Informação &amp; Algoritmos</li>
+        <li>Engenharia Web (Front &amp; Back-end)</li>
+        <li>Banco de Dados &amp; Arquitetura de Redes</li>
+        <li>Boas Práticas de Código &amp; DevOps</li>
+      </ul>
+
+    </div>
+
+    <a
+      href="#project-reelist"
+      class="explore-link"
+      aria-label="Explorar The Lab e projetos de tecnologia"
+    >
+
+      <span>
+        EXPLORAR
+      </span>
+
+      <span>
+        ↗
+      </span>
+
+    </a>
+
+  </article>
+
+
+  <!-- =====================================
+       CREATIVE
+  ====================================== -->
+
+  <article
+    class="world-card world-creative"
+    id="world-creative"
+  >
+
+    <span class="world-index">
+      02
+    </span>
+
+    <span class="world-symbol">
+      ◇
+    </span>
+
+    <div class="world-information">
+
+      <h3>
+        CREATIVE
+      </h3>
+
+      <h4>
+        THE STUDIO
+      </h4>
+
+      <ul>
+        <li>Design Systems &amp; UI/UX Design</li>
+        <li>Direção de Arte &amp; Identidade Visual</li>
+        <li>Teatro &amp; Expressão Cênica</li>
+        <li>Música &amp; Vivência Artística</li>
+        <li>Narrativas Visuais &amp; Experiências</li>
+      </ul>
+
+    </div>
+
+    <a
+      href="#project-creative"
+      class="explore-link"
+      aria-label="Explorar The Studio e projetos criativos"
+    >
+
+      <span>
+        EXPLORAR
+      </span>
+
+      <span>
+        ↗
+      </span>
+
+    </a>
+
+  </article>
+
+
+  <!-- =====================================
+       STRATEGY
+  ====================================== -->
+
+  <article
+    class="world-card world-strategy"
+    id="world-strategy"
+  >
+
+    <span class="world-index">
+      03
+    </span>
+
+    <span class="world-symbol">
+      ✦
+    </span>
+
+    <div class="world-information">
+
+      <h3>
+        STRATEGY
+      </h3>
+
+      <h4>
+        THE FORGE
+      </h4>
+
+      <ul>
+        <li>Organização &amp; Estruturação de Ideias</li>
+        <li>Visão Holística entre Tech &amp; Negócios</li>
+        <li>Gestão Ágil de Projetos &amp; Liderança</li>
+        <li>Mentoria &amp; Sessões Estratégica</li>
+        <li>Desenvolvimento &amp; Potencial Humano</li>
+      </ul>
+
+    </div>
+
+    <a
+      href="#project-strategy"
+      class="explore-link"
+      aria-label="Explorar The Forge e projetos estratégicos"
+    >
+
+      <span>
+        EXPLORAR
+      </span>
+
+      <span>
+        ↗
+      </span>
+
+    </a>
+
+  </article>
+
+</div>
+
+    </div>
+
+  </section>
+
+<!-- =========================================
+     03 / SELECTED WORK
+========================================== -->
+
+<section class="selected-work" id="work">
+
+  <div class="work-wrapper">
+
+
+    <!-- CABEÇALHO -->
+
+    <header class="work-heading">
+
+      <span class="section-index">
+        TRABALHOS SELECIONADOS
+      </span>
+
+      <div class="work-heading-grid">
+
+        <div>
+
+          <p class="work-eyebrow">
+            PROJETOS ENTRE MUNDOS
+          </p>
+
+          <h2>
+            IDEIAS QUE
+
+            <span>
+              GANHARAM VIDA.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <p class="work-introduction">
+          Uma curadoria de projetos que ganharam forma ao longo do caminho.
+        </p>
+
+      </div>
+
+    </header>
+
+
+    <!-- =====================================
+         PROJECT 01 / TECHNOLOGY
+    ====================================== -->
+
+    <article class="project project-tech" id="project-reelist">
+
+      <div class="project-visual">
+
+        <div class="project-screen project-screen-tech">
+
+          <div class="project-image-container">
+            <img src="/images/reelist.png" alt="Reelist - Cinema & Streaming Catalog UI" class="project-preview-img" loading="lazy" />
+            <div class="project-image-overlay"></div>
+          </div>
+
+          <div class="preview-world-badge">
+            <span class="preview-symbol">◉</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-content">
+
+        <div class="project-meta">
+
+          <span>
+            01
+          </span>
+
+          <span class="project-world">
+            TECNOLOGIA
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            REELIST
+          </h3>
+
+          <p class="project-category">
+            Catálogo interativo de filmes
+          </p>
+
+
+          <div class="project-tags">
+
+            <span>JavaScript</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Arrays</span>
+
+          </div>
+
+
+          <p class="project-description">
+            Uma experiência web desenvolvida para explorar filmes através de busca, filtros e interação com JavaScript.
+          </p>
+
+        </div>
+
+
+        <button
+          type="button"
+          class="project-link"
+          data-open-case-study="reelist"
+          aria-label="VER PROJETO Reelist"
+        >
+
+          <span>
+            VER PROJETO
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- =====================================
+         PROJECT 02 / CREATIVE
+    ====================================== -->
+
+    <article class="project project-creative project-reverse" id="project-creative">
+
+      <div class="project-visual">
+
+        <div class="project-screen project-screen-creative">
+
+          <div class="project-image-container">
+            <img src="/images/creative.png" alt="Studio Astra - Creative Direction & Identity" class="project-preview-img" loading="lazy" />
+            <div class="project-image-overlay"></div>
+          </div>
+
+          <div class="preview-world-badge">
+            <span class="preview-symbol">◇</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-content">
+
+        <div class="project-meta">
+
+          <span>
+            02
+          </span>
+
+          <span class="project-world">
+            CRIATIVIDADE
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            O TEATRO DE SOMBRAS DE OFÉLIA
+          </h3>
+
+          <p class="project-category">
+            Teatro · Interpretação · Expressão · Storytelling
+          </p>
+
+
+          <div class="project-tags">
+
+            <span>Teatro</span>
+            <span>Interpretação</span>
+            <span>Expressão Cênica</span>
+            <span>Storytelling</span>
+
+          </div>
+
+
+          <p class="project-description">
+            Durante minha formação em programação pelo PROA, no Senac, encontrei espaço para explorar uma linguagem completamente diferente da tecnologia: o teatro. Uma adaptação inspirada em Michael Ende que marcou minha forma de criar, comunicar e colaborar.
+          </p>
+
+        </div>
+
+
+        <button
+          type="button"
+          class="project-link"
+          data-open-case-study="creative"
+          aria-label="VER PROJETO O TEATRO DE SOMBRAS DE OFÉLIA"
+        >
+
+          <span>
+            VER PROJETO
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+
+    <!-- =====================================
+         PROJECT 03 / STRATEGY
+    ====================================== -->
+
+    <article class="project project-strategy" id="project-strategy">
+
+      <div class="project-visual">
+
+        <div class="project-screen project-screen-strategy">
+
+          <div class="project-image-container">
+            <img src="/images/Strategy.png" alt="NEXA - Strategy & Architecture" class="project-preview-img" loading="lazy" />
+            <div class="project-image-overlay"></div>
+          </div>
+
+          <div class="preview-world-badge">
+            <span class="preview-symbol">✦</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="project-content">
+
+        <div class="project-meta">
+
+          <span>
+            03
+          </span>
+
+          <span class="project-world">
+            ESTRATÉGIA
+          </span>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            NEXA by Ashilay
+          </h3>
+
+          <p class="project-category">
+            Estratégia de marca, produto e experiência
+          </p>
+
+
+          <div class="project-tags">
+
+            <span>Strategy</span>
+            <span>Brand</span>
+            <span>Product</span>
+            <span>Experience</span>
+
+          </div>
+
+
+          <p class="project-description">
+            A NEXA é uma marca de autoconhecimento aplicado criada para transformar reflexão em escolhas mais conscientes e movimento. O projeto envolveu a construção do posicionamento, público, metodologia, identidade e experiência digital da marca.
+          </p>
+
+        </div>
+
+
+        <button
+          type="button"
+          class="project-link"
+          data-open-case-study="strategy"
+          aria-label="VER PROJETO NEXA by Ashilay"
+        >
+
+          <span>
+            VER PROJETO
+          </span>
+
+          <span class="project-arrow">
+            ↗
+          </span>
+
+        </button>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================
+     04 / THE JOURNEY
+========================================== -->
+
+<section class="journey" id="journey">
+
+  <div class="journey-wrapper">
+
+    <!-- HEADER -->
+
+    <header class="journey-heading">
+
+      <span class="section-index">
+        A JORNADA
+      </span>
+
+      <div class="journey-heading-grid">
+
+        <div>
+
+          <p class="journey-eyebrow">
+            UMA LINHA DO TEMPO EM MOVIMENTO
+          </p>
+
+          <h2>
+            CADA PASSO
+
+            <span>
+              ABRIU UM NOVO MUNDO.
+            </span>
+          </h2>
+
+        </div>
+
+        <p class="journey-introduction">
+          Uma trajetória em constante construção, entre desafios, descobertas e novos caminhos.
+        </p>
+
+      </div>
+
+    </header>
+
+
+    <!-- TIMELINE -->
+
+    <div class="journey-timeline">
+
+      <div class="journey-line">
+
+        <div class="journey-line-progress"></div>
+
+      </div>
+
+
+      <!-- 2023 -->
+
+      <article class="journey-item journey-left">
+
+        <div class="journey-node">
+          <span></span>
+        </div>
+
+        <div class="journey-year">
+          2023
+        </div>
+
+        <div class="journey-card">
+
+          <h3>
+            O COMEÇO
+          </h3>
+
+          <p>
+            A tecnologia entrou na minha trajetória como uma nova possibilidade. Entre código, liderança e construção coletiva, comecei a explorar um território que, mais tarde, se conectaria a muitos outros.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- 2024 -->
+
+      <article class="journey-item journey-right">
+
+        <div class="journey-node">
+          <span></span>
+        </div>
+
+        <div class="journey-year">
+          2024
+        </div>
+
+        <div class="journey-card">
+
+          <h3>
+            EXPANDINDO HORIZONTES
+          </h3>
+
+          <p>
+            Entrei no Google Brasil e passei a vivenciar tecnologia, criatividade e negócios dentro de um ambiente global. Entre projetos, colaboração internacional e a organização de um evento na Argentina, 2024 ampliou minha visão sobre o que eu poderia construir e onde minhas habilidades poderiam me levar
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- 2025 -->
+
+      <article class="journey-item journey-left">
+
+        <div class="journey-node">
+          <span></span>
+        </div>
+
+        <div class="journey-year">
+          2025
+        </div>
+
+        <div class="journey-card">
+
+          <h3>
+            ENTRE MUNDOS
+          </h3>
+
+          <p>
+            este ano marcou o fim de um ciclo e o início de vários outros. Saí do programa de aprendizagem do Google, conquistei meu estágio no Santander e passei a atuar mais próxima de tecnologia, operações e estratégia. Em paralelo, vivi oito meses como estudante pesquisadora no CPQD, aprofundando meus conhecimentos em redes privativas e participando da construção de um artigo técnico.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- 2026 -->
+
+      <article class="journey-item journey-right journey-now">
+
+        <div class="journey-node">
+          <span></span>
+        </div>
+
+        <div class="journey-year">
+          2026
+        </div>
+
+        <div class="journey-card">
+
+          <span class="journey-current">
+            ✦ VOCÊ ESTÁ AQUI
+          </span>
+
+          <h3>
+            AGORA
+          </h3>
+
+          <p>
+            Uma mudança de área dentro do Santander trouxe uma nova perspectiva para minha trajetória. Passei a olhar mais de perto para os indicadores que traduzem o desempenho da organização, especialmente em tecnologia, entendendo não apenas os números, mas o que eles revelam sobre processos, prioridades e decisões.
+          </p>
+
+        </div>
+
+      </article>
+
+
+      <!-- FINAL -->
+
+      <div class="journey-end">
+
+        <span>
+          ✦
+        </span>
+
+        <p>
+          A CONTINUAR
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================================
+     05 / CAPABILITIES
+========================================== -->
+
+<section class="capabilities" id="capabilities">
+
+  <div class="capabilities-wrapper">
+
+
+    <!-- =====================================
+         HEADING
+    ====================================== -->
+
+    <header class="capabilities-heading">
+
+      <span class="section-index">
+        CAPACIDADES
+      </span>
+
+
+      <div class="capabilities-heading-grid">
+
+        <div>
+
+          <p class="capabilities-eyebrow">
+            COMO EU CONSTRUO
+          </p>
+
+
+          <h2>
+
+            DIFERENTES
+
+            <span class="capabilities-outline">
+              FERRAMENTAS.
+            </span>
+
+            <span class="capabilities-accent">
+              UMA MESMA MENTE.
+            </span>
+
+          </h2>
+
+        </div>
+
+
+        <p class="capabilities-introduction">
+          Minha atuação se constrói na interseção entre tecnologia, criatividade e estratégia. Cada mundo reúne conhecimentos, ferramentas e experiências que uso de formas diferentes — e que, muitas vezes, se encontram em um mesmo projeto.
+        </p>
+
+      </div>
+
+    </header>
+
+
+    <!-- =====================================
+         WORLDS
+    ====================================== -->
+
+    <div class="capability-grid">
+
+
+      <!-- TECHNOLOGY -->
+
+      <article class="capability-card capability-tech">
+
+        <div class="capability-card-top">
+
+          <span class="capability-number">
+            01
+          </span>
+
+          <span class="capability-symbol">
+            ◉
+          </span>
+
+        </div>
+
+
+        <div class="capability-title">
+
+          <span>
+            THE LAB
+          </span>
+
+          <h3>
+            TECNOLOGIA
+          </h3>
+
+        </div>
+
+
+        <p class="capability-description">
+          Construindo sistemas, experiências digitais e infraestrutura através de código, dados e experimentação.
+        </p>
+
+
+        <div class="capability-tags">
+
+          <span>Ruby</span>
+
+          <span>JavaScript</span>
+
+          <span>Python</span>
+
+          <span>React</span>
+
+          <span>SQL</span>
+
+          <span>Data</span>
+
+          <span>Cloud</span>
+
+          <span>Networks</span>
+
+          <span>Infrastructure</span>
+
+          <span>Observability</span>
+
+          <span>Automation</span>
+
+        </div>
+
+
+        <div class="capability-orbit" aria-hidden="true">
+
+          <span class="orbit orbit-one"></span>
+
+          <span class="orbit orbit-two"></span>
+
+          <span class="orbit-dot"></span>
+
+        </div>
+
+      </article>
+
+
+      <!-- CREATIVE -->
+
+      <article class="capability-card capability-creative">
+
+        <div class="capability-card-top">
+
+          <span class="capability-number">
+            02
+          </span>
+
+          <span class="capability-symbol">
+            ◇
+          </span>
+
+        </div>
+
+
+        <div class="capability-title">
+
+          <span>
+            THE STUDIO
+          </span>
+
+          <h3>
+            ARTE
+          </h3>
+
+        </div>
+
+
+        <p class="capability-description">
+          Da ideia à expressão visual, transformo conceitos em interfaces, identidades, narrativas e experiências que comunicam com intenção.
+        </p>
+
+
+        <div class="capability-tags">
+
+          <span>UI</span>
+
+          <span>Web Design</span>
+
+          <span>Visual Identity</span>
+
+          <span>Branding</span>
+
+          <span>Content</span>
+
+          <span>Storytelling</span>
+
+          <span>Creative Direction</span>
+
+          <span>Experiences</span>
+
+        </div>
+
+
+        <div class="capability-orbit" aria-hidden="true">
+
+          <span class="orbit orbit-one"></span>
+
+          <span class="orbit orbit-two"></span>
+
+          <span class="orbit-dot"></span>
+
+        </div>
+
+      </article>
+
+
+      <!-- STRATEGY -->
+
+      <article class="capability-card capability-strategy">
+
+        <div class="capability-card-top">
+
+          <span class="capability-number">
+            03
+          </span>
+
+          <span class="capability-symbol">
+            ✦
+          </span>
+
+        </div>
+
+
+        <div class="capability-title">
+
+          <span>
+            THE FORGE
+          </span>
+
+          <h3>
+            ESTRATÉGIA
+          </h3>
+
+        </div>
+
+
+        <p class="capability-description">
+          Da complexidade à execução, estruturo projetos, processos e informações para conectar pessoas, decisões e objetivos.
+        </p>
+
+
+        <div class="capability-tags">
+
+          <span>Project Management</span>
+
+          <span>Processes</span>
+
+          <span>Leadership</span>
+
+          <span>Business</span>
+
+          <span>Planning</span>
+
+          <span>Governance</span>
+
+          <span>Entrepreneurship</span>
+
+        </div>
+
+
+        <div class="capability-orbit" aria-hidden="true">
+
+          <span class="orbit orbit-one"></span>
+
+          <span class="orbit orbit-two"></span>
+
+          <span class="orbit-dot"></span>
+
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <!-- =====================================
+         MINDSET
+    ====================================== -->
+
+    <div class="capabilities-mindset">
+
+      <div class="mindset-heading">
+
+        <span class="mindset-symbol">
+          ✦
+        </span>
+
+        <div>
+
+          <span class="mindset-index">
+            CORE
+          </span>
+
+          <h3>
+            MODO DE PENSAR
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <div class="mindset-list">
+
+        <div class="mindset-item">
+
+          <span>01</span>
+
+          <p>
+            Curiosidade antes da resposta.
+          </p>
+
+        </div>
+
+
+        <div class="mindset-item">
+
+          <span>02</span>
+
+          <p>
+            Entender antes de construir.
+          </p>
+
+        </div>
+
+
+        <div class="mindset-item">
+
+          <span>03</span>
+
+          <p>
+            Experimentar antes de assumir.
+          </p>
+
+        </div>
+
+
+        <div class="mindset-item">
+
+          <span>04</span>
+
+          <p>
+            Conectar antes de separar.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!-- =====================================
+         EXPANDING
+    ====================================== -->
+
+    <div class="capabilities-expanding">
+
+      <span>+</span>
+
+      <p>
+        SEMPRE EXPANDINDO
+      </p>
+
+      <span>+</span>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================================
+     06 / BEYOND THE WORK
+========================================== -->
+
+<section class="beyond" id="beyond">
+
+  <div class="beyond-wrapper">
+
+    <!-- HEADER -->
+
+    <header class="beyond-heading">
+
+      <span class="section-index">
+        ALÉM DO TRABALHO
+      </span>
+
+
+      <div class="beyond-heading-grid">
+
+        <div>
+
+          <p class="beyond-eyebrow">
+            O QUE EXISTE FORA DA TELA
+          </p>
+
+
+          <h2>
+
+            EU TAMBÉM
+
+            <span>
+              EXISTO ENTRE
+            </span>
+
+            <strong>
+              OUTROS MUNDOS.
+            </strong>
+
+          </h2>
+
+        </div>
+
+
+        <p class="beyond-introduction">
+          Ideias não surgem apenas durante o trabalho. Histórias, jogos, mundos imaginários e pequenas curiosidades também moldam a forma como eu observo e construo.
+        </p>
+
+      </div>
+
+    </header>
+
+
+    <!-- WORLDS BEYOND -->
+
+    <div class="beyond-grid">
+
+
+      <!-- STORIES -->
+
+      <article class="beyond-card beyond-stories">
+
+        <div class="beyond-card-top">
+
+          <span>
+            01
+          </span>
+
+          <span class="beyond-symbol">
+            ☾
+          </span>
+
+        </div>
+
+
+        <div class="beyond-card-content">
+
+          <span class="beyond-code">
+            BEYOND / STORIES
+          </span>
+
+          <h3>
+            HISTÓRIAS &amp; MUNDOS
+          </h3>
+
+          <p>
+            Tenho fascínio por universos que parecem existir além da tela, lugares estranhos, mágicos, misteriosos e cheios de detalhes.
+          </p>
+
+        </div>
+
+
+        <div
+          class="beyond-decoration beyond-moon easter-egg-trigger"
+          data-secret="2"
+          role="button"
+          tabindex="0"
+          title="☾"
+          aria-label="Moon secret"
+        >
+          <span></span>
+        </div>
+
+      </article>
+
+
+      <!-- CINEMA -->
+
+      <article class="beyond-card beyond-cinema">
+
+        <div class="beyond-card-top">
+
+          <span>
+            02
+          </span>
+
+          <span class="beyond-symbol">
+            ◫
+          </span>
+
+        </div>
+
+
+        <div class="beyond-card-content">
+
+          <span class="beyond-code">
+            BEYOND / VISUAL
+          </span>
+
+          <h3>
+            TEATRO &amp; VISUAL
+          </h3>
+
+          <p>
+            Atmosfera, direção de arte e narrativa visual influenciam muito a maneira como penso experiências digitais.
+          </p>
+
+        </div>
+
+
+        <div
+          class="beyond-decoration beyond-frame"
+          aria-hidden="true"
+        >
+          <span></span>
+          <span></span>
+        </div>
+
+      </article>
+
+
+      <!-- GAMES -->
+
+      <article class="beyond-card beyond-games">
+
+        <div class="beyond-card-top">
+
+          <span>
+            03
+          </span>
+
+          <span class="beyond-symbol">
+            ◈
+          </span>
+
+        </div>
+
+
+        <div class="beyond-card-content">
+
+          <span class="beyond-code">
+            BEYOND / SYSTEMS
+          </span>
+
+          <h3>
+            JOGOS &amp; SISTEMAS
+          </h3>
+
+          <p>
+            Jogos me interessam não apenas pela diversão, mas pelas regras, interfaces, estratégias e sistemas que criam experiências.
+          </p>
+
+        </div>
+
+
+        <div
+          class="beyond-decoration beyond-grid-art"
+          aria-hidden="true"
+        ></div>
+
+      </article>
+
+
+      <!-- CURIOSITY -->
+
+      <article class="beyond-card beyond-curiosity">
+
+        <div class="beyond-card-top">
+
+          <span>
+            04
+          </span>
+
+          <span class="beyond-symbol">
+            ✦
+          </span>
+
+        </div>
+
+
+        <div class="beyond-card-content">
+
+          <span class="beyond-code">
+            BEYOND / UNKNOWN
+          </span>
+
+          <h3>
+            CURIOSIDADE
+          </h3>
+
+          <p>
+            Gosto de descobrir coisas novas, testar possibilidades e conectar assuntos que aparentemente não pertencem ao mesmo lugar.
+          </p>
+
+        </div>
+
+
+        <div
+          class="beyond-decoration beyond-orbit"
+          aria-hidden="true"
+        >
+          <span></span>
+          <span></span>
+          <i></i>
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <!-- FINAL NOTE -->
+
+    <div class="beyond-note">
+
+      <span>
+        ✦
+      </span>
+
+      <p>
+        A inspiração também faz parte do processo.
+      </p>
+
+      <span>
+        06 / END
+      </span>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================================
+     07 / CONTACT
+========================================== -->
+
+<section class="contact" id="contact">
+
+  <div class="contact-wrapper">
+
+    <!-- HEADER -->
+
+    <header class="contact-heading">
+
+      <span class="section-index">
+        CONTATO
+      </span>
+
+
+      <p class="contact-eyebrow">
+        O PRÓXIMO MUNDO PODE COMEÇAR AQUI
+      </p>
+
+
+      <h2>
+
+        VAMOS
+
+        <span>
+          CONSTRUIR
+        </span>
+
+        <strong>
+          UM NOVO MUNDO.
+        </strong>
+
+      </h2>
+
+
+      <p class="contact-introduction">
+        Se você tem uma ideia, projeto, oportunidade ou simplesmente quer trocar perspectivas, este universo continua aberto para novas conexões.
+      </p>
+
+    </header>
+
+
+    <!-- =====================================
+         CONNECTIONS
+    ====================================== -->
+
+    <div class="contact-links">
+
+      <!-- EMAIL -->
+
+      <a
+        href="mailto:ashilayoliveira@gmail.com"
+        class="contact-link contact-email"
+      >
+
+        <div>
+
+          <span class="contact-link-index">
+            01
+          </span>
+
+          <span class="contact-link-label">
+            EMAIL
+          </span>
+
+        </div>
+
+
+        <div class="contact-link-action">
+
+          <span>
+            CONECTAR
+          </span>
+
+          <strong>
+            ↗
+          </strong>
+
+        </div>
+
+      </a>
+
+
+      <!-- LINKEDIN -->
+
+      <a
+        href="https://www.linkedin.com/in/ashilayoliveira"
+        class="contact-link contact-linkedin"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div>
+
+          <span class="contact-link-index">
+            02
+          </span>
+
+          <span class="contact-link-label">
+            LINKEDIN
+          </span>
+
+        </div>
+
+
+        <div class="contact-link-action">
+
+          <span>
+            CONECTAR
+          </span>
+
+          <strong>
+            ↗
+          </strong>
+
+        </div>
+
+      </a>
+
+
+      <!-- GITHUB -->
+
+      <a
+        href="https://github.com/ashyoliveira"
+        class="contact-link contact-github"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+
+        <div>
+
+          <span class="contact-link-index">
+            03
+          </span>
+
+          <span class="contact-link-label">
+            GITHUB
+          </span>
+
+        </div>
+
+
+        <div class="contact-link-action">
+
+          <span>
+            CONECTAR
+          </span>
+
+          <strong>
+            ↗
+          </strong>
+
+        </div>
+
+      </a>
+
+
+      <!-- STRATEGY SESSION -->
+
+      <a
+        href="https://cal.com/ashilayoliveira"
+        class="contact-link contact-strategy"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Agendar Sessão Estratégica de 30 minutos com Ashilay"
+      >
+
+        <div>
+
+          <span class="contact-link-index">
+            04
+          </span>
+
+          <span class="contact-link-label">
+            SESSÃO ESTRATÉGICA (30 MIN)
+          </span>
+
+        </div>
+
+
+        <div class="contact-link-action">
+
+          <span>
+            AGENDAR
+          </span>
+
+          <strong>
+            ↗
+          </strong>
+
+        </div>
+
+      </a>
+
+    </div>
+
+
+    <!-- =====================================
+         INFO
+    ====================================== -->
+
+    <div class="contact-information">
+
+      <div class="contact-info">
+
+        <span>
+          STATUS
+        </span>
+
+        <strong class="contact-status">
+
+          <i></i>
+
+          ABERTA A NOVAS CONEXÕES
+
+        </strong>
+
+      </div>
+
+
+      <div class="contact-info">
+
+        <span>
+          LOCALIZAÇÃO
+        </span>
+
+        <strong>
+          SÃO PAULO, BRASIL
+        </strong>
+
+      </div>
+
+
+      <div class="contact-info">
+
+        <span>
+          UNIVERSO
+        </span>
+
+        <strong>
+          TECNOLOGIA + CRIATIVIDADE + ESTRATÉGIA
+        </strong>
+
+      </div>
+
+    </div>
+
+
+    <!-- FINAL MESSAGE -->
+
+    <div class="contact-closing">
+
+      <span>
+        ✦
+      </span>
+
+      <p>
+        O universo continua se expandindo.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- =========================================
+     SITE FOOTER
+========================================== -->
+
+<footer class="site-footer">
+
+  <div class="footer-wrapper">
+
+
+    <!-- TOP -->
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <span class="footer-symbol">
+          ✦
+        </span>
+
+        <div>
+
+          <strong>
+            ASHILAY&#39;S UNIVERSE
+          </strong>
+
+          <p>
+            Onde tecnologia, criatividade e ideias se encontram.
+          </p>
+
+        </div>
+
+      </div>
+
+
+      <a
+        href="#portal"
+        class="footer-back"
+      >
+
+        <span>
+          VOLTAR AO PORTAL
+        </span>
+
+        <strong>
+          ↑
+        </strong>
+
+      </a>
+
+    </div>
+
+
+    <!-- CENTRAL -->
+
+    <div class="footer-center">
+
+      <p>
+        VOCÊ CHEGOU AO LIMITE DESTE UNIVERSO.
+      </p>
+
+      <span class="footer-star easter-egg-trigger" data-secret="3" role="button" tabindex="0" title="✦">
+        ✦
+      </span>
+
+    </div>
+
+
+    <!-- BOTTOM -->
+
+    <div class="footer-bottom">
+
+      <span>
+        
+      </span>
+
+      <span>
+        Portifólio Ashilay Oliveira
+      </span>
+
+      <span>
+        SÃO PAULO / 2026
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+  <!-- =========================================
+       CASE STUDY IMMERSIVE DRAWER
+  ========================================== -->
+  <aside
+    class="case-study-drawer"
+    id="case-study-drawer"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Case Study Details"
+  >
+    <div class="case-study-backdrop" id="case-study-backdrop"></div>
+
+    <div class="case-study-container">
+      <header class="case-drawer-header">
+        <div class="case-drawer-badge" id="case-drawer-badge">
+          <span class="case-badge-symbol">◉</span>
+          <span class="case-badge-text" id="case-badge-text">THE LAB</span>
+        </div>
+
+        <button
+          type="button"
+          class="case-drawer-close"
+          id="case-drawer-close"
+          aria-label="Fechar"
+        >
+          <span>Fechar</span>
+          <strong>×</strong>
+        </button>
+      </header>
+
+      <!-- REELIST PANEL -->
+      <div class="case-panel" data-case-panel="reelist" hidden>
+        <div class="case-hero">
+          <h2>REELIST</h2>
+          <p class="case-subtitle">Catálogo Interativo de Filmes &amp; Manipulação do DOM</p>
+        </div>
+
+        <div class="case-hero-media">
+          <img src="/images/reelist.png" alt="Reelist preview" class="case-hero-img" />
+        </div>
+
+        <div class="case-body">
+          <section class="case-section">
+            <span class="case-section-tag">VISÃO GERAL</span>
+            <p class="case-lead">O Reelist é um catálogo interativo de filmes construído a partir de um vetor em JavaScript. Cada filme é armazenado como um objeto dentro do Array, contendo informações como título, ano, gênero, descrição e imagem.</p>
+          </section>
+
+          <div class="case-two-col">
+            <section class="case-section">
+              <span class="case-section-tag">O DESAFIO</span>
+              <p>A interface do Reelist foi inspirada na estética cinematográfica, utilizando uma paleta em tons de vermelho, bordô e cores claras. O design foi pensado para destacar os pôsteres e apresentar a coleção de forma simples, moderna e organizada.</p>
+            </section>
+
+            <section class="case-section">
+              <span class="case-section-tag">ARQUITETURA</span>
+              <p>O JavaScript percorre o vetor utilizando o laço for e cria os cards dos filmes dinamicamente na página. O usuário pode pesquisar filmes pelo título, filtrar a coleção por gênero e clicar nos cards para visualizar mais informações.</p>
+            </section>
+          </div>
+
+          <section class="case-section">
+            <span class="case-section-tag">DESTAQUES</span>
+            <div class="case-highlights-grid">
+              <div class="case-highlight-card">
+                <span>01</span>
+                <p>Vetores (Array) &amp; Objetos JS armazenando título, ano, gênero, descrição e imagem</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>02</span>
+                <p>Renderização dinâmica do DOM com laço for, createElement() e innerHTML</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>03</span>
+                <p>Busca por título e filtros por gênero com .filter() e .includes()</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>04</span>
+                <p>Estética Cinematográfica com paleta em tons de vermelho e bordô</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="case-section">
+            <span class="case-section-tag">TECNOLOGIAS &amp; FERRAMENTAS</span>
+            <div class="case-stack-pills">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript (ES6+)</span>
+              <span>Manipulação do DOM</span>
+              <span>Arrays & Objetos</span>
+              <span>.filter() & .includes()</span>
+            </div>
+          </section>
+
+          <div class="case-actions">
+            <a
+              href="https://github.com/ashyoliveira/Reelist"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="case-btn primary"
+            >
+              <span>VER NO GITHUB</span>
+              <strong>↗</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- CREATIVE PANEL -->
+      <div class="case-panel" data-case-panel="creative" hidden>
+        <div class="case-hero">
+          <h2>O Teatro de Sombras de Ofélia</h2>
+          <p class="case-subtitle">Teatro · Interpretação · Expressão Cênica</p>
+        </div>
+
+        <div class="case-hero-media">
+          <img src="/images/creative.png" alt="Creative preview" class="case-hero-img" />
+        </div>
+
+        <div class="case-body">
+          <section class="case-section">
+            <span class="case-section-tag">VISÃO GERAL</span>
+            <p class="case-lead">Durante minha formação em programação pelo Instituto PROA, no Senac, surgiu a oportunidade de participar de um projeto teatral com outros estudantes da instituição. A apresentação foi uma adaptação inspirada em O Teatro de Sombras de Ofélia, obra de Michael Ende, e trouxe para o palco uma narrativa marcada pela imaginação, pelas sombras e pelo poder transformador da arte.</p>
+          </section>
+
+          <div class="case-two-col">
+            <section class="case-section">
+              <span class="case-section-tag">O DESAFIO</span>
+              <p>Enquanto meus dias eram voltados à tecnologia e à programação, o projeto abriu espaço para explorar outra forma de criação: o teatro.</p>
+            </section>
+
+            <section class="case-section">
+              <span class="case-section-tag">ARQUITETURA</span>
+              <p>Participei da montagem como atriz, interpretando diferentes personagens ao longo da apresentação. A experiência envolveu ensaios, construção coletiva, interpretação, expressão corporal e presença cênica. Mais do que uma atividade paralela à minha formação, foi uma oportunidade de continuar explorando uma relação com a arte que já fazia parte da minha trajetória — dessa vez, através do palco.</p>
+            </section>
+          </div>
+
+          <section class="case-section">
+            <span class="case-section-tag">DESTAQUES</span>
+            <div class="case-highlights-grid">
+              <div class="case-highlight-card">
+                <span>01</span>
+                <p>Contexto: Instituto PROA · Senac</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>02</span>
+                <p>Projeto: Adaptação teatral de O Teatro de Sombras de Ofélia</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>03</span>
+                <p>Autor da obra: Michael Ende</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>04</span>
+                <p>Atuação: Interpretação de múltiplos personagens</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="case-section">
+            <span class="case-section-tag">TECNOLOGIAS &amp; FERRAMENTAS</span>
+            <div class="case-stack-pills">
+              <span>Teatro & Atuação</span>
+              <span>Interpretação</span>
+              <span>Expressão Corporal</span>
+              <span>Presença Cênica</span>
+              <span>Storytelling</span>
+              <span>Construção Coletiva</span>
+            </div>
+          </section>
+
+          <div class="case-actions">
+            <a
+              href="https://www.youtube.com/watch?v=cxbS7RFW3tQ"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="case-btn primary"
+            >
+              <span>Assistir à referência da obra</span>
+              <strong>↗</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- STRATEGY PANEL -->
+      <div class="case-panel" data-case-panel="strategy" hidden>
+        <div class="case-hero">
+          <h2>NEXA by Ashilay</h2>
+          <p class="case-subtitle">Autoconhecimento aplicado para pessoas em momentos de construção, escolha e transição.</p>
+        </div>
+
+        <div class="case-hero-media">
+          <img src="/images/Strategy.png" alt="NEXA Strategy preview" class="case-hero-img" />
+        </div>
+
+        <div class="case-body">
+          <section class="case-section">
+            <span class="case-section-tag">VISÃO GERAL</span>
+            <p class="case-lead">A NEXA nasceu da construção de uma marca de autoconhecimento aplicado que conecta reflexão à vida real. O projeto parte da ideia de que compreender valores, interesses, limites, desejos e propósitos pode ajudar pessoas a fazer escolhas mais conscientes e assumir um papel mais ativo na construção dos próprios caminhos.<br><br>Mais do que desenvolver uma identidade visual, o projeto envolveu estruturar uma marca desde sua essência: propósito, público, posicionamento, comunicação, metodologia, experiência e possibilidades de crescimento.</p>
+          </section>
+
+          <div class="case-two-col">
+            <section class="case-section">
+              <span class="case-section-tag">O DESAFIO</span>
+              <p>Transformar um tema amplo como autoconhecimento em uma proposta clara, contemporânea e aplicável ao cotidiano, evitando uma comunicação genérica ou baseada apenas em motivação.<br><br>O desafio foi criar uma experiência capaz de falar sobre propósito, escolhas, limites, carreira, mudanças e desenvolvimento pessoal de maneira acessível, sem oferecer respostas prontas ou determinar um único caminho para quem utiliza a NEXA.</p>
+            </section>
+
+            <section class="case-section">
+              <span class="case-section-tag">ESTRATÉGIA &amp; CONSTRUÇÃO</span>
+              <p>A estratégia foi organizada a partir de três movimentos:<br><br><strong>Conhecer → Escolher → Mover</strong><br><br>Conhecer melhor quem você é e aquilo que te move. Escolher com mais consciência o que faz sentido. Transformar essa clareza em experimentação, decisões e próximos passos.<br><br>A partir dessa estrutura foram desenvolvidos o posicionamento da marca, público inicial, sistema de comunicação, pilares de conteúdo, identidade visual e um MVP digital interativo que permite ao usuário começar sua experiência de autoconhecimento dentro do próprio site.</p>
+            </section>
+          </div>
+
+          <section class="case-section">
+            <span class="case-section-tag">DESTAQUES</span>
+            <div class="case-highlights-grid">
+              <div class="case-highlight-card">
+                <span>01 — Posicionamento da Marca</span>
+                <p>Definição de propósito, público, proposta de valor, personalidade e direção estratégica da NEXA.</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>02 — Método NEXA</span>
+                <p>Criação da estrutura Conhecer → Escolher → Mover como base para conteúdos, experiências e futuros produtos.</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>03 — Experiência Digital</span>
+                <p>Construção de um site interativo em que perguntas, escolhas e caminhos fazem parte da própria experiência da marca.</p>
+              </div>
+              <div class="case-highlight-card">
+                <span>04 — MVP &amp; Evolução</span>
+                <p>Estruturação da NEXA para começar com conteúdo e ferramentas digitais e evoluir futuramente para produtos, experiências e programas.</p>
+              </div>
+            </div>
+          </section>
+
+          <section class="case-section">
+            <span class="case-section-tag">TECNOLOGIAS &amp; FERRAMENTAS</span>
+            <div class="case-stack-pills">
+              <span>Brand Strategy</span>
+              <span>Product Thinking</span>
+              <span>UX Writing</span>
+              <span>Content Strategy</span>
+              <span>Experience Design</span>
+              <span>Next.js</span>
+              <span>TypeScript</span>
+            </div>
+          </section>
+
+          <div class="case-actions">
+            <a
+              href="https://nexa-2204.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="case-btn primary"
+            >
+              <span>ACESSAR NEXA</span>
+              <strong>↗</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+</main>
+
+
+<!-- END app/views/universe/index.html.erb -->
+
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+  </body>
+</html>
+<!-- END app/views/layouts/application.html.erb -->

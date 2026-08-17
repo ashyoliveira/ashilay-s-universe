@@ -1,19 +1,4 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "config.ru",
-      "use": "@vercel/ruby"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/images/(.*)",
-      "dest": "/images/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "config.ru"
-    }
-  ]
+  "cleanUrls": true
 }
