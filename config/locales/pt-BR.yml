@@ -1,0 +1,279 @@
+pt-BR:
+
+  navigation:
+    language: "Idioma"
+    theme: "Mudar realidade"
+    accessibility: "Acessibilidade"
+    menu: "Menu"
+
+  menu:
+    close: "FECHAR"
+    current_reality: "REALIDADE ATUAL"
+    midnight: "MIDNIGHT UNIVERSE"
+    daydream: "DAYDREAM UNIVERSE"
+    quick_access: "ACESSO RÁPIDO / MUNDOS"
+    nav_portal: "PORTAL"
+    nav_universe: "THE UNIVERSE"
+    nav_worlds: "WORLDS"
+    nav_work: "TRABALHOS"
+    nav_journey: "A JORNADA"
+    nav_capabilities: "CAPACIDADES"
+    nav_beyond: "ALÉM DO TRABALHO"
+    nav_contact: "CONTATO"
+
+  accessibility:
+    title: "Acessibilidade"
+    close: "Fechar painel de acessibilidade"
+    panel_index: "ACCESS / 01"
+    text_size: "TAMANHO DO TEXTO"
+    contrast: "ALTO CONTRASTE"
+    motion: "REDUZIR MOVIMENTO"
+    libras: "LIBRAS"
+
+  portal:
+    entering: "BEM-VINDOS"
+    title_one: "ASHILAY'S"
+    title_two: "UNIVERSE"
+    description: "Onde tecnologia, criatividade e soluções se encontram."
+    enter: "ENTRAR"
+    location: "Access"
+    portfolio: "Worlds"
+
+  about:
+    index: "THE UNIVERSE"
+    title_one: "EU NÃO"
+    title_two: "CAIBO EM"
+    title_three: "UMA CAIXA."
+    technology: "TECNOLOGIA"
+    creativity: "ARTE"
+    strategy: "ESTRATÉGIA"
+    introduction: "Olá eu sou Ashilay Oliveira."
+    highlight: "E construo entre mundos."
+    paragraph_one: "Na minha realidade, tecnologia, arte e estratégia não são identidades separadas, elas me compõem como pessoa, e em minhas mãos são diferentes ferramentas para criar, inovar e transformar ideias."
+    paragraph_two: "Este universo reúne projetos, experiências e formas de pensar que atravessam código, design e construção de soluções."
+    photo_placeholder: "SUA FOTO"
+    detail_field: "ÁREA"
+    detail_field_value: "Sistemas da Informação"
+    detail_location: "LOCAL"
+    detail_location_value: "São Paulo, Brasil"
+    detail_language: "LINGUAGEM"
+    detail_language_value: "Entusiasta de Ruby"
+    detail_intersection: "INTERSEÇÃO"
+    detail_intersection_value: "Tech + Criatividade + Estratégia"
+
+  worlds:
+    index: "WORLDS"
+    eyebrow: "TRÊS DIMENSÕES DO MESMO UNIVERSO"
+    select: "SELECIONE UM"
+    world: "MUNDO."
+    description: "Cada mundo guarda uma parte da minha trajetória, experiências, descobertas e caminhos que hoje se conectam."
+    explore: "EXPLORAR"
+    explored_label: "MUNDOS EXPLORADOS"
+
+    tech_item_1: "Formações SENAI & Instituto PROA"
+    tech_item_2: "Sistemas de Informação & Algoritmos"
+    tech_item_3: "Engenharia Web (Front & Back-end)"
+    tech_item_4: "Banco de Dados & Arquitetura de Redes"
+    tech_item_5: "Boas Práticas de Código & DevOps"
+
+    creative_item_1: "Design Systems & UI/UX Design"
+    creative_item_2: "Direção de Arte & Identidade Visual"
+    creative_item_3: "Teatro & Expressão Cênica"
+    creative_item_4: "Música & Vivência Artística"
+    creative_item_5: "Narrativas Visuais & Experiências"
+
+    strategy_item_1: "Organização & Estruturação de Ideias"
+    strategy_item_2: "Visão Holística entre Tech & Negócios"
+    strategy_item_3: "Gestão Ágil de Projetos & Liderança"
+    strategy_item_4: "Mentoria & Sessões Estratégica"
+    strategy_item_5: "Desenvolvimento & Potencial Humano"
+
+  work:
+    index: "TRABALHOS SELECIONADOS"
+    eyebrow: "PROJETOS ENTRE MUNDOS"
+    title_one: "IDEIAS QUE"
+    title_two: "GANHARAM VIDA."
+    description: "Uma curadoria de projetos que ganharam forma ao longo do caminho."
+    view_case: "VER PROJETO"
+    project: "PROJETO"
+    technology: "TECNOLOGIA"
+    creative: "CRIATIVIDADE"
+    strategy: "ESTRATÉGIA"
+    reelist_category: "Catálogo interativo de filmes"
+    reelist_description: "Uma experiência web desenvolvida para explorar filmes através de busca, filtros e interação com JavaScript."
+    creative_title: "O TEATRO DE SOMBRAS DE OFÉLIA"
+    creative_category: "Teatro · Interpretação · Expressão · Storytelling"
+    creative_description: "Durante minha formação em programação pelo PROA, no Senac, encontrei espaço para explorar uma linguagem completamente diferente da tecnologia: o teatro. Uma adaptação inspirada em Michael Ende que marcou minha forma de criar, comunicar e colaborar."
+    strategy_title: "NEXA by Ashilay"
+    strategy_category: "Estratégia de marca, produto e experiência"
+    strategy_description: "A NEXA é uma marca de autoconhecimento aplicado criada para transformar reflexão em escolhas mais conscientes e movimento. O projeto envolveu a construção do posicionamento, público, metodologia, identidade e experiência digital da marca."
+
+  case_studies:
+    close: "Fechar"
+    overview: "VISÃO GERAL"
+    challenge: "O DESAFIO"
+    solution: "ARQUITETURA"
+    highlights: "DESTAQUES"
+    stack: "TECNOLOGIAS & FERRAMENTAS"
+    view_github: "VER NO GITHUB"
+    view_demo: "EXPLORAR PROJETO"
+    access_nexa: "ACESSAR NEXA"
+    
+    reelist:
+      world: "TECNOLOGIA / THE LAB"
+      title: "REELIST"
+      subtitle: "Catálogo Interativo de Filmes & Manipulação do DOM"
+      overview_text: "O Reelist é um catálogo interativo de filmes construído a partir de um vetor em JavaScript. Cada filme é armazenado como um objeto dentro do Array, contendo informações como título, ano, gênero, descrição e imagem."
+      challenge_text: "A interface do Reelist foi inspirada na estética cinematográfica, utilizando uma paleta em tons de vermelho, bordô e cores claras. O design foi pensado para destacar os pôsteres e apresentar a coleção de forma simples, moderna e organizada."
+      solution_text: "O JavaScript percorre o vetor utilizando o laço for e cria os cards dos filmes dinamicamente na página. O usuário pode pesquisar filmes pelo título, filtrar a coleção por gênero e clicar nos cards para visualizar mais informações."
+      feature_1: "Vetores (Array) & Objetos JS armazenando título, ano, gênero, descrição e imagem"
+      feature_2: "Renderização dinâmica do DOM com laço for, createElement() e innerHTML"
+      feature_3: "Busca por título e filtros por gênero com .filter() e .includes()"
+      feature_4: "Estética Cinematográfica com paleta em tons de vermelho e bordô"
+
+    creative:
+      world: "CRIATIVIDADE"
+      title: "O Teatro de Sombras de Ofélia"
+      subtitle: "Teatro · Interpretação · Expressão Cênica"
+      overview_text: "Durante minha formação em programação pelo Instituto PROA, no Senac, surgiu a oportunidade de participar de um projeto teatral com outros estudantes da instituição. A apresentação foi uma adaptação inspirada em O Teatro de Sombras de Ofélia, obra de Michael Ende, e trouxe para o palco uma narrativa marcada pela imaginação, pelas sombras e pelo poder transformador da arte."
+      challenge_text: "Enquanto meus dias eram voltados à tecnologia e à programação, o projeto abriu espaço para explorar outra forma de criação: o teatro."
+      solution_text: "Participei da montagem como atriz, interpretando diferentes personagens ao longo da apresentação. A experiência envolveu ensaios, construção coletiva, interpretação, expressão corporal e presença cênica. Mais do que uma atividade paralela à minha formação, foi uma oportunidade de continuar explorando uma relação com a arte que já fazia parte da minha trajetória — dessa vez, através do palco."
+      feature_1: "Contexto: Instituto PROA · Senac"
+      feature_2: "Projeto: Adaptação teatral de O Teatro de Sombras de Ofélia"
+      feature_3: "Autor da obra: Michael Ende"
+      feature_4: "Atuação: Interpretação de múltiplos personagens"
+      watch_reference: "Assistir à referência da obra"
+
+    strategy:
+      world: "03 · THE FORGE / STRATEGY"
+      title: "NEXA by Ashilay"
+      subtitle: "Autoconhecimento aplicado para pessoas em momentos de construção, escolha e transição."
+      strategy_construction_tag: "ESTRATÉGIA & CONSTRUÇÃO"
+      overview_text: "A NEXA nasceu da construção de uma marca de autoconhecimento aplicado que conecta reflexão à vida real. O projeto parte da ideia de que compreender valores, interesses, limites, desejos e propósitos pode ajudar pessoas a fazer escolhas mais conscientes e assumir um papel mais ativo na construção dos próprios caminhos.<br><br>Mais do que desenvolver uma identidade visual, o projeto envolveu estruturar uma marca desde sua essência: propósito, público, posicionamento, comunicação, metodologia, experiência e possibilidades de crescimento."
+      challenge_text: "Transformar um tema amplo como autoconhecimento em uma proposta clara, contemporânea e aplicável ao cotidiano, evitando uma comunicação genérica ou baseada apenas em motivação.<br><br>O desafio foi criar uma experiência capaz de falar sobre propósito, escolhas, limites, carreira, mudanças e desenvolvimento pessoal de maneira acessível, sem oferecer respostas prontas ou determinar um único caminho para quem utiliza a NEXA."
+      solution_text: "A estratégia foi organizada a partir de três movimentos:<br><br><strong>Conhecer → Escolher → Mover</strong><br><br>Conhecer melhor quem você é e aquilo que te move. Escolher com mais consciência o que faz sentido. Transformar essa clareza em experimentação, decisões e próximos passos.<br><br>A partir dessa estrutura foram desenvolvidos o posicionamento da marca, público inicial, sistema de comunicação, pilares de conteúdo, identidade visual e um MVP digital interativo que permite ao usuário começar sua experiência de autoconhecimento dentro do próprio site."
+      feature_1_title: "Posicionamento da Marca"
+      feature_1: "Definição de propósito, público, proposta de valor, personalidade e direção estratégica da NEXA."
+      feature_2_title: "Método NEXA"
+      feature_2: "Criação da estrutura Conhecer → Escolher → Mover como base para conteúdos, experiências e futuros produtos."
+      feature_3_title: "Experiência Digital"
+      feature_3: "Construção de um site interativo em que perguntas, escolhas e caminhos fazem parte da própria experiência da marca."
+      feature_4_title: "MVP & Evolução"
+      feature_4: "Estruturação da NEXA para começar com conteúdo e ferramentas digitais e evoluir futuramente para produtos, experiências e programas."
+
+
+  journey:
+    index: "A JORNADA"
+    eyebrow: "UMA LINHA DO TEMPO EM MOVIMENTO"
+    title_one: "CADA PASSO"
+    title_two: "ABRIU UM NOVO MUNDO."
+    description: "Uma trajetória em constante construção, entre desafios, descobertas e novos caminhos."
+
+    year_2023_title: "O COMEÇO"
+    year_2023_text: "A tecnologia entrou na minha trajetória como uma nova possibilidade. Entre código, liderança e construção coletiva, comecei a explorar um território que, mais tarde, se conectaria a muitos outros."
+
+    year_2024_title: "EXPANDINDO HORIZONTES"
+    year_2024_text: "Entrei no Google Brasil e passei a vivenciar tecnologia, criatividade e negócios dentro de um ambiente global. Entre projetos, colaboração internacional e a organização de um evento na Argentina, 2024 ampliou minha visão sobre o que eu poderia construir e onde minhas habilidades poderiam me levar"
+
+    year_2025_title: "ENTRE MUNDOS"
+    year_2025_text: "este ano marcou o fim de um ciclo e o início de vários outros. Saí do programa de aprendizagem do Google, conquistei meu estágio no Santander e passei a atuar mais próxima de tecnologia, operações e estratégia. Em paralelo, vivi oito meses como estudante pesquisadora no CPQD, aprofundando meus conhecimentos em redes privativas e participando da construção de um artigo técnico."
+
+    year_2026_title: "AGORA"
+    year_2026_text: "Uma mudança de área dentro do Santander trouxe uma nova perspectiva para minha trajetória. Passei a olhar mais de perto para os indicadores que traduzem o desempenho da organização, especialmente em tecnologia, entendendo não apenas os números, mas o que eles revelam sobre processos, prioridades e decisões."
+
+    current: "VOCÊ ESTÁ AQUI"
+    chapter: "CAPÍTULO / %{number}"
+    to_be_continued: "A CONTINUAR"
+
+  capabilities:
+    index: "CAPACIDADES"
+    eyebrow: "COMO EU CONSTRUO"
+    title_one: "DIFERENTES"
+    title_two: "FERRAMENTAS."
+    title_three: "UMA MESMA MENTE."
+    description: "Minha atuação se constrói na interseção entre tecnologia, criatividade e estratégia. Cada mundo reúne conhecimentos, ferramentas e experiências que uso de formas diferentes — e que, muitas vezes, se encontram em um mesmo projeto."
+
+    technology: "TECNOLOGIA"
+    technology_world: "THE LAB"
+    technology_description: "Construindo sistemas, experiências digitais e infraestrutura através de código, dados e experimentação."
+
+    creative: "ARTE"
+    creative_world: "THE STUDIO"
+    creative_description: "Da ideia à expressão visual, transformo conceitos em interfaces, identidades, narrativas e experiências que comunicam com intenção."
+
+    strategy: "ESTRATÉGIA"
+    strategy_world: "THE FORGE"
+    strategy_description: "Da complexidade à execução, estruturo projetos, processos e informações para conectar pessoas, decisões e objetivos."
+
+    mindset_title: "MODO DE PENSAR"
+    core_index: "CORE"
+    mindset_one: "Curiosidade antes da resposta."
+    mindset_two: "Entender antes de construir."
+    mindset_three: "Experimentar antes de assumir."
+    mindset_four: "Conectar antes de separar."
+
+    expanding: "SEMPRE EXPANDINDO"
+
+  beyond:
+    index: "ALÉM DO TRABALHO"
+    eyebrow: "O QUE EXISTE FORA DA TELA"
+    title_one: "EU TAMBÉM"
+    title_two: "EXISTO ENTRE"
+    title_three: "OUTROS MUNDOS."
+    description: "Ideias não surgem apenas durante o trabalho. Histórias, jogos, mundos imaginários e pequenas curiosidades também moldam a forma como eu observo e construo."
+
+    stories_title: "HISTÓRIAS & MUNDOS"
+    stories_text: "Tenho fascínio por universos que parecem existir além da tela, lugares estranhos, mágicos, misteriosos e cheios de detalhes."
+
+    cinema_title: "TEATRO & VISUAL"
+    cinema_text: "Atmosfera, direção de arte e narrativa visual influenciam muito a maneira como penso experiências digitais."
+
+    games_title: "JOGOS & SISTEMAS"
+    games_text: "Jogos me interessam não apenas pela diversão, mas pelas regras, interfaces, estratégias e sistemas que criam experiências."
+
+    curiosity_title: "CURIOSIDADE"
+    curiosity_text: "Gosto de descobrir coisas novas, testar possibilidades e conectar assuntos que aparentemente não pertencem ao mesmo lugar."
+
+    note: "A inspiração também faz parte do processo."
+
+  contact:
+    index: "CONTATO"
+    eyebrow: "O PRÓXIMO MUNDO PODE COMEÇAR AQUI"
+    title_one: "VAMOS"
+    title_two: "CONSTRUIR"
+    title_three: "UM NOVO MUNDO."
+    description: "Se você tem uma ideia, projeto, oportunidade ou simplesmente quer trocar perspectivas, este universo continua aberto para novas conexões."
+
+    email: "EMAIL"
+    linkedin: "LINKEDIN"
+    github: "GITHUB"
+    strategy_session: "SESSÃO ESTRATÉGICA (30 MIN)"
+    connect: "CONECTAR"
+    schedule: "AGENDAR"
+
+    availability_label: "STATUS"
+    availability: "ABERTA A NOVAS CONEXÕES"
+
+    location_label: "LOCALIZAÇÃO"
+    location: "SÃO PAULO, BRASIL"
+
+    universe_label: "UNIVERSO"
+    universe: "TECNOLOGIA + CRIATIVIDADE + ESTRATÉGIA"
+
+    closing: "O universo continua se expandindo."
+
+  footer:
+    universe: "ASHILAY'S UNIVERSE"
+    phrase: "Onde tecnologia, criatividade e ideias se encontram."
+    edge: "VOCÊ CHEGOU AO LIMITE DESTE UNIVERSO."
+    copyright: ""
+    built: "Portifólio Ashilay Oliveira"
+    back_top: "VOLTAR AO PORTAL"
+
+  meta:
+    description: "Portfólio interativo explorando tecnologia, criatividade e estratégia através de projetos, experiências e ideias."
+
+  secrets:
+    secret_01: "SEGREDO 01 / 03: O núcleo do universo foi despertado."
+    secret_02: "SEGREDO 02 / 03: Observadora de estrelas sintonizada."
+    secret_03: "SEGREDO 03 / 03: O limite do universo foi alcançado."

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="<%= I18n.locale == :"pt-BR" ? "pt-BR" : I18n.locale %>">
+  <head>
+    <title><%= content_for(:title) || "Ashilay Oliveira — Technology, Creativity & Strategy" %></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= t('meta.description') %>">
+    <meta name="theme-color" content="#0B0B16">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="application-name" content="Ashilay's Universe">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Ashilay's Universe">
+    <meta property="og:title" content="Ashilay Oliveira — Technology, Creativity & Strategy">
+    <meta property="og:description" content="<%= t('meta.description') %>">
+    <meta property="og:locale" content="<%= I18n.locale == :"pt-BR" ? "pt_BR" : (I18n.locale == :es ? "es_ES" : "en_US") %>">
+    <meta property="og:image" content="/icon.svg">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ashilay Oliveira — Technology, Creativity & Strategy">
+    <meta name="twitter:description" content="<%= t('meta.description') %>">
+    <meta name="twitter:image" content="/icon.svg">
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <%# Includes all stylesheet files in app/assets/stylesheets %>
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+
+  <body>
+    <%= yield %>
+
+    <% if I18n.locale == :"pt-BR" %>
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    <% end %>
+  </body>
+</html>

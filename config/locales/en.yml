@@ -1,0 +1,278 @@
+en:
+
+  navigation:
+    language: "Language"
+    theme: "Shift Reality"
+    accessibility: "Accessibility"
+    menu: "Menu"
+
+  menu:
+    close: "CLOSE"
+    current_reality: "CURRENT REALITY"
+    midnight: "MIDNIGHT UNIVERSE"
+    daydream: "DAYDREAM UNIVERSE"
+    quick_access: "QUICK ACCESS / WORLDS"
+    nav_portal: "PORTAL"
+    nav_universe: "THE UNIVERSE"
+    nav_worlds: "WORLDS"
+    nav_work: "SELECTED WORK"
+    nav_journey: "THE JOURNEY"
+    nav_capabilities: "CAPABILITIES"
+    nav_beyond: "BEYOND THE WORK"
+    nav_contact: "CONTACT"
+
+  accessibility:
+    title: "Accessibility"
+    close: "Close accessibility panel"
+    panel_index: "ACCESS / 01"
+    text_size: "TEXT SIZE"
+    contrast: "HIGH CONTRAST"
+    motion: "REDUCE MOTION"
+    libras: "LIBRAS"
+
+  portal:
+    entering: "WELCOME"
+    title_one: "ASHILAY'S"
+    title_two: "UNIVERSE"
+    description: "Where technology, creativity and solutions meet."
+    enter: "ENTER"
+    location: "Access"
+    portfolio: "Worlds"
+
+  about:
+    index: "THE UNIVERSE"
+    title_one: "I DON'T"
+    title_two: "FIT IN"
+    title_three: "ONE BOX."
+    technology: "TECHNOLOGY"
+    creativity: "ART"
+    strategy: "STRATEGY"
+    introduction: "Hello, I'm Ashilay Oliveira."
+    highlight: "And I build between worlds."
+    paragraph_one: "In my reality, technology, art, and strategy are not separate identities, they compose me as a person, and in my hands are different tools to create, innovate, and transform ideas."
+    paragraph_two: "This universe brings together projects, experiences and ways of thinking that move across code, design and building solutions."
+    photo_placeholder: "YOUR IMAGE"
+    detail_field: "FIELD"
+    detail_field_value: "Information Systems"
+    detail_location: "LOCATION"
+    detail_location_value: "São Paulo, Brazil"
+    detail_language: "LANGUAGE"
+    detail_language_value: "Ruby enthusiast"
+    detail_intersection: "INTERSECTION"
+    detail_intersection_value: "Tech + Creativity + Strategy"
+
+  worlds:
+    index: "WORLDS"
+    eyebrow: "THREE DIMENSIONS OF ONE UNIVERSE"
+    select: "SELECT A"
+    world: "WORLD."
+    description: "Each world holds a part of my trajectory, experiences, discoveries, and paths that now connect."
+    explore: "EXPLORE"
+    explored_label: "WORLDS EXPLORED"
+
+    tech_item_1: "SENAI & PROA Institute Training"
+    tech_item_2: "Information Systems & Algorithms"
+    tech_item_3: "Web Engineering (Front & Back-end)"
+    tech_item_4: "Databases & Network Architecture"
+    tech_item_5: "Code Best Practices & DevOps"
+
+    creative_item_1: "Design Systems & UI/UX Design"
+    creative_item_2: "Art Direction & Visual Identity"
+    creative_item_3: "Theater & Stage Expression"
+    creative_item_4: "Music & Artistic Background"
+    creative_item_5: "Visual Storytelling & Experiences"
+
+    strategy_item_1: "Idea Organization & Structuring"
+    strategy_item_2: "Holistic Vision between Tech & Business"
+    strategy_item_3: "Agile Project Management & Leadership"
+    strategy_item_4: "Mentoring & Strategic Sessions"
+    strategy_item_5: "Development & Human Potential"
+
+  work:
+    index: "SELECTED WORK"
+    eyebrow: "PROJECTS BETWEEN WORLDS"
+    title_one: "THINGS I'VE"
+    title_two: "BROUGHT TO LIFE."
+    description: "A curation of projects that took shape along the journey."
+    view_case: "VIEW CASE"
+    project: "PROJECT"
+    technology: "TECHNOLOGY"
+    creative: "CREATIVE"
+    strategy: "STRATEGY"
+    reelist_category: "Interactive movie catalog"
+    reelist_description: "A web experience built to explore movies through search, filters and JavaScript interactions."
+    creative_title: "OPHELIA'S SHADOW THEATER"
+    creative_category: "Theater · Acting · Expression · Storytelling"
+    creative_description: "During my programming training at PROA / Senac, I found space to explore a language completely different from tech: theater. An adaptation inspired by Michael Ende that shaped how I create, communicate and collaborate."
+    strategy_title: "NEXA by Ashilay"
+    strategy_category: "Brand, product and experience strategy"
+    strategy_description: "NEXA is an applied self-knowledge brand created to transform reflection into more conscious choices and movement. The project involved building the brand positioning, audience, methodology, identity and digital experience."
+
+  case_studies:
+    close: "Close"
+    overview: "OVERVIEW"
+    challenge: "THE CHALLENGE"
+    solution: "ARCHITECTURE"
+    highlights: "KEY HIGHLIGHTS"
+    stack: "TECH STACK & TOOLS"
+    view_github: "VIEW ON GITHUB"
+    view_demo: "EXPLORE PROJECT"
+    access_nexa: "ACCESS NEXA"
+    
+    reelist:
+      world: "TECHNOLOGY / THE LAB"
+      title: "REELIST"
+      subtitle: "Interactive Movie Catalog & DOM Manipulation"
+      overview_text: "Reelist is an interactive movie catalog built using JavaScript arrays. Each movie is stored as an object inside the array, containing details like title, release year, genre, description, and poster image."
+      challenge_text: "The interface was inspired by cinematic aesthetics, featuring a color palette of red, burgundy, and clean light tones. The design was crafted to highlight posters and display the collection in a modern, organized way."
+      solution_text: "JavaScript iterates through the array using a for loop to render movie cards dynamically on the page. Users can search movies by title, filter the collection by genre, and click cards for detailed views."
+      feature_1: "JS Arrays & Objects storing title, year, genre, description, and poster"
+      feature_2: "Dynamic DOM rendering with for loop, createElement(), and innerHTML"
+      feature_3: "Title search and genre filtering powered by .filter() and .includes()"
+      feature_4: "Cinematic aesthetic featuring red and burgundy color palette"
+
+    creative:
+      world: "CREATIVITY"
+      title: "Ophelia's Shadow Theater"
+      subtitle: "Theater · Acting · Stage Expression"
+      overview_text: "During my programming training at the PROA Institute (Senac), the opportunity arose to participate in a theater project with fellow students. The performance was an adaptation inspired by Ophelia's Shadow Theater by Michael Ende, bringing to the stage a narrative marked by imagination, shadows, and the transformative power of art."
+      challenge_text: "While my days were focused on tech and coding, the project opened space to explore another form of creation: theater."
+      solution_text: "I participated in the production as an actress, portraying multiple characters throughout the performance. The experience involved rehearsals, collective creation, acting, body expression, and stage presence. More than an activity parallel to my training, it was an opportunity to continue exploring a relationship with art that was already part of my journey — this time, on stage."
+      feature_1: "Context: PROA Institute · Senac"
+      feature_2: "Project: Stage adaptation of Ophelia's Shadow Theater"
+      feature_3: "Author of the work: Michael Ende"
+      feature_4: "Acting: Performance of multiple characters"
+      watch_reference: "Watch work reference"
+
+    strategy:
+      world: "03 · THE FORGE / STRATEGY"
+      title: "NEXA by Ashilay"
+      subtitle: "Applied self-knowledge for people in moments of growth, choice, and transition."
+      strategy_construction_tag: "STRATEGY & CONSTRUCTION"
+      overview_text: "NEXA was born from building an applied self-knowledge brand connecting reflection to real life. The project starts from the idea that understanding values, interests, boundaries, desires, and purpose helps people make more conscious choices and take an active role in building their own paths.<br><br>More than developing a visual identity, the project involved structuring a brand from its core: purpose, audience, positioning, communication, methodology, experience, and growth possibilities."
+      challenge_text: "Transforming a broad topic like self-knowledge into a clear, contemporary, and daily applicable proposal, avoiding generic or purely motivational communication.<br><br>The challenge was creating an experience capable of discussing purpose, choices, boundaries, career, changes, and personal growth accessibly, without offering cookie-cutter answers or dictating a single path."
+      solution_text: "The strategy was organized around three movements:<br><br><strong>Discover → Choose → Move</strong><br><br>Discover who you are and what moves you. Choose with greater clarity what makes sense. Transform that clarity into experimentation, decisions, and next steps.<br><br>From this framework, we developed brand positioning, target audience, communication system, content pillars, visual identity, and an interactive digital MVP allowing users to begin their journey right on the site."
+      feature_1_title: "Brand Positioning"
+      feature_1: "Definition of purpose, target audience, value proposition, personality, and strategic direction of NEXA."
+      feature_2_title: "NEXA Method"
+      feature_2: "Creation of the Discover → Choose → Move framework as the foundation for content, experiences, and future products."
+      feature_3_title: "Digital Experience"
+      feature_3: "Building an interactive web experience where questions, choices, and paths are part of the brand interaction itself."
+      feature_4_title: "MVP & Evolution"
+      feature_4: "Structuring NEXA to launch with digital content & tools, evolving into products, experiences, and structured programs."
+
+  journey:
+    index: "THE JOURNEY"
+    eyebrow: "A TIMELINE IN MOTION"
+    title_one: "EVERY STEP"
+    title_two: "OPENED A NEW WORLD."
+    description: "A trajectory in constant evolution, built through challenges, discoveries, and new paths."
+
+    year_2023_title: "THE BEGINNING"
+    year_2023_text: "Technology entered my path as a new world of possibilities. Between code, leadership, and collective building, I began exploring a domain that would later connect to many others."
+
+    year_2024_title: "EXPANDING HORIZONS"
+    year_2024_text: "I joined Google Brazil and started experiencing technology, creativity, and business within a global environment. Through projects, international collaboration, and organizing an event in Argentina, 2024 expanded my vision of what I could build and where my skills could take me."
+
+    year_2025_title: "BETWEEN WORLDS"
+    year_2025_text: "This year marked the end of one chapter and the beginning of several others. I graduated from Google's apprenticeship program, secured my internship at Santander, and began working closer to technology, operations, and strategy. Concurrently, I spent eight months as a student researcher at CPQD, deepening my knowledge in private networks and co-authoring a technical paper."
+
+    year_2026_title: "NOW"
+    year_2026_text: "A domain transition within Santander brought a fresh perspective to my career. I began closely analyzing key performance indicators that reflect organizational health, particularly in tech, understanding not just the metrics, but what they reveal about processes, priorities, and decisions."
+
+    current: "YOU ARE HERE"
+    chapter: "CHAPTER / %{number}"
+    to_be_continued: "TO BE CONTINUED"
+
+  capabilities:
+    index: "CAPABILITIES"
+    eyebrow: "HOW I BUILD"
+    title_one: "DIFFERENT"
+    title_two: "TOOLS."
+    title_three: "ONE MIND."
+    description: "My work thrives at the intersection of technology, creativity, and strategy. Each domain brings together knowledge, tools, and experiences that I apply in distinct ways — and which frequently unite within the same project."
+
+    technology: "TECHNOLOGY"
+    technology_world: "THE LAB"
+    technology_description: "Building systems, digital experiences and infrastructure through code, data and experimentation."
+
+    creative: "ART"
+    creative_world: "THE STUDIO"
+    creative_description: "From concept to visual expression, I transform ideas into interfaces, identities, narratives, and experiences that communicate with purpose."
+
+    strategy: "STRATEGY"
+    strategy_world: "THE FORGE"
+    strategy_description: "From complexity to execution, I structure projects, processes, and insights to connect people, decisions, and goals."
+
+    mindset_title: "WAY OF THINKING"
+    core_index: "CORE"
+    mindset_one: "Curiosity before answers."
+    mindset_two: "Understand before building."
+    mindset_three: "Experiment before assuming."
+    mindset_four: "Connect before separating."
+
+    expanding: "ALWAYS EXPANDING"
+
+  beyond:
+    index: "BEYOND WORK"
+    eyebrow: "WHAT EXISTS BEYOND THE SCREEN"
+    title_one: "I ALSO"
+    title_two: "EXIST BETWEEN"
+    title_three: "OTHER WORLDS."
+    description: "Ideas don't only appear while working. Stories, games, imaginary worlds and small curiosities also shape the way I observe and build."
+
+    stories_title: "STORIES & WORLDS"
+    stories_text: "I'm fascinated by universes that seem to exist beyond the screen, strange, magical, mysterious places filled with detail."
+
+    cinema_title: "THEATER & VISUALS"
+    cinema_text: "Atmosphere, art direction and visual storytelling strongly influence how I think about digital experiences."
+
+    games_title: "GAMES & SYSTEMS"
+    games_text: "Games interest me not only for entertainment, but also for their rules, interfaces, strategies and systems."
+
+    curiosity_title: "CURIOSITY"
+    curiosity_text: "I enjoy discovering new things, testing possibilities and connecting subjects that don't seem to belong together."
+
+    note: "Inspiration is also part of the process."
+
+  contact:
+    index: "CONTACT"
+    eyebrow: "THE NEXT WORLD COULD START HERE"
+    title_one: "LET'S"
+    title_two: "BUILD"
+    title_three: "A NEW WORLD."
+    description: "If you have an idea, project, opportunity or simply want to exchange perspectives, this universe remains open to new connections."
+
+    email: "EMAIL"
+    linkedin: "LINKEDIN"
+    github: "GITHUB"
+    strategy_session: "STRATEGY SESSION (30 MIN)"
+    connect: "CONNECT"
+    schedule: "SCHEDULE"
+
+    availability_label: "STATUS"
+    availability: "OPEN TO NEW CONNECTIONS"
+
+    location_label: "LOCATION"
+    location: "SÃO PAULO, BRAZIL"
+
+    universe_label: "UNIVERSE"
+    universe: "TECHNOLOGY + CREATIVITY + STRATEGY"
+
+    closing: "The universe keeps expanding."
+
+  footer:
+    universe: "ASHILAY'S UNIVERSE"
+    phrase: "Where technology, creativity and ideas meet."
+    edge: "YOU'VE REACHED THE EDGE OF THIS UNIVERSE."
+    copyright: ""
+    built: "Ashilay Oliveira Portfolio"
+    back_top: "BACK TO THE PORTAL"
+
+  meta:
+    description: "Interactive portfolio exploring technology, creativity and strategy through projects, experiences and ideas."
+
+  secrets:
+    secret_01: "SECRET 01 / 03: The core of the universe awakened."
+    secret_02: "SECRET 02 / 03: Stargazer tuned in."
+    secret_03: "SECRET 03 / 03: The edge of the universe reached."
