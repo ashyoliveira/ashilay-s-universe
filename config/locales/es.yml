@@ -246,7 +246,9 @@ es:
     email: "EMAIL"
     linkedin: "LINKEDIN"
     github: "GITHUB"
+    strategy_session: "Sesión de Estrategia"
     connect: "CONECTAR"
+    schedule: "AGENDAR"
 
     availability_label: "ESTADO"
     availability: "ABERTA A NUEVAS CONEXIONES"

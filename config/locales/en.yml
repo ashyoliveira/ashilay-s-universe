@@ -246,7 +246,7 @@ en:
     email: "EMAIL"
     linkedin: "LINKEDIN"
     github: "GITHUB"
-    strategy_session: "STRATEGY SESSION (30 MIN)"
+    strategy_session: "Strategy Session"
     connect: "CONNECT"
     schedule: "SCHEDULE"
 
